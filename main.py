@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 	folder = Path(sys.argv[1])
 	list = os.listdir(folder)
-	list = determine_near_duplicates(list)
+	list = determine_near_duplicates(list, similarity_factor)
 
 	for entry in list:
 		original = entry[0]
