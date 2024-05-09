@@ -86,4 +86,4 @@ if __name__ == "__main__":
 				print("  Original: " + original)
 				print("  Duplicate: " + d)
 				# Uncomment this line at your own risk:
-				#os.remove(d)
+				#os.remove(folder / d)
